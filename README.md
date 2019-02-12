@@ -7,7 +7,7 @@ python -m pip install fernet
 ## Category 1 
 This type of ransomware opens a file, reads the contents and then writes the encryption into the file, thus overwriting it. This means that the content of the file is encrypted, but not necessarily the file itself, the file might not even be renamed.
 
-### Running Category 1
+#### Running Category 1
 ``` 
 python cat1.py
 ```
@@ -30,7 +30,7 @@ Coming soon
 ## Category 2 
 The file to be encrypted is moved to another directory where the ransomware encrypts the file, then moves the same file back into the original directory. Here the file might also be renamed.
 
-#### Running Category 1
+#### Running Category 2
 ``` 
 python cat2.py
 ```
