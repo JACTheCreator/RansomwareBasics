@@ -60,9 +60,9 @@ Coming soon
 ## Category 3 
 Here the original file is read and a new encrypted file is made based on the original, next the original is overwritten or deleted
 
-#### Running Category 1
+#### Running Category 3
 ``` 
-python cat2.py
+python cat3.py
 ```
 
 #### [Sample](https://github.com/JACTheCreator/RansomwareBasics/blob/master/cat3.py)
